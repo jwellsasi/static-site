@@ -1,0 +1,9 @@
+//- global mixin file
+mixin head(canonical, title, description)
+  head
+    meta(http-equiv="Content-Type" content="text/html; charset=UTF-8")
+    meta(name="description" content=description)
+    meta(name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no")
+    title #{title}
+    //- canonical tag goes here
+    link(rel="canonical" href=`http://localhost:3000/${canonical}`)

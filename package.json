@@ -1,0 +1,21 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "archive site for email and staging site for web",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "express": "^4.15.3",
+    "handlebars": "^4.0.10",
+    "jade": "^1.11.0",
+    "mocha": "^3.4.2",
+    "pug": "^2.0.0-rc.2",
+    "pug-cli": "^1.0.0-alpha6",
+    "zombie": "^5.0.7"
+  }
+}
