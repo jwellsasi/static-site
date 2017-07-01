@@ -21,5 +21,4 @@ gulp.task('pages', function(){
 gulp.task('watch', function(){
   gulp.watch('view/pages/*.pug', ['pages']);
   gulp.watch('view/partials/*.pug', ['partial']);
-  // Other watchers
 })
