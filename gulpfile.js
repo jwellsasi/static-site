@@ -25,7 +25,7 @@ gulp.task('server', function (cb) {
 // watch for changes in the template files
 // then restart the server
 gulp.task('watch', function(){
-  gulp.watch('view/pages/*.pug', ['pages','server']); 
+  gulp.watch('view/pages/*.pug', ['pages','server']);
 })
 
 gulp.task('default', ['pages', 'watch', 'server'])
