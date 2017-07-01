@@ -5,22 +5,22 @@
   "main": "app.js",
   "repository": "https://github.com/jwellsasi/static-site",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "ASI",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^2.18.12",
     "chai": "^4.0.2",
+    "child_process": "^1.0.2",
     "express": "^4.15.3",
     "gulp": "^3.9.1",
     "gulp-pug": "^3.3.0",
     "gulp-util": "^3.0.8",
     "minimatch": "^3.0.2",
     "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
     "pug": "^2.0.0-rc.2",
-    "pug-cli": "^1.0.0-alpha6",
-    "zombie": "^5.0.7"
+    "pug-cli": "^1.0.0-alpha6"
   },
   "devDependencies": {
     "browser-sync": "^2.18.12"
