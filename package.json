@@ -10,6 +10,7 @@
   "author": "ASI",
   "license": "ISC",
   "dependencies": {
+    "browser-sync": "^2.18.12",
     "chai": "^4.0.2",
     "express": "^4.15.3",
     "gulp": "^3.9.1",
@@ -20,5 +21,8 @@
     "pug": "^2.0.0-rc.2",
     "pug-cli": "^1.0.0-alpha6",
     "zombie": "^5.0.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12"
   }
 }
