@@ -7,30 +7,30 @@ app.use(express.static('public'))
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function (req, res) {
   console.log(req.headers.host+req.url);
-  res.sendFile(__dirname + '/view/pages/home.html');
+  res.sendFile(__dirname + '/build/home.html');
 })
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/archive', function (req, res) {
   console.log(req.headers.host+req.url);
-  res.sendFile(__dirname + '/view/pages/archive.html');
+  res.sendFile(__dirname + '/build/archive.html');
 })
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/admin', function (req, res) {
   console.log(req.headers.host+req.url);
-  res.sendFile(__dirname + '/view/pages/admin.html');
+  res.sendFile(__dirname + '/build/admin.html');
 })
 
 // Handle 404
 app.use(function(req, res) {
-  res.status(404).sendFile(__dirname + '/view/pages/404.html');
+  res.status(404).sendFile(__dirname + '/build/404.html');
   console.log(req.headers.host+req.url+" status: 404");
 });
 
 // Handle 500
 app.use(function(error, req, res, next) {
-  res.status(500).sendFile(__dirname + '/view/pages/500.html');
+  res.status(500).sendFile(__dirname + '/build/500.html');
   console.log(req.headers.host+req.url+" status: 500");
 });
 

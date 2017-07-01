@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "archive site for email and staging site for web",
   "main": "app.js",
+  "repository": "https://github.com/jwellsasi/static-site",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +12,16 @@
   "dependencies": {
     "chai": "^4.0.2",
     "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
     "handlebars": "^4.0.10",
-    "jade": "^1.11.0",
+    "minimatch": "^3.0.2",
     "mocha": "^3.4.2",
     "pug": "^2.0.0-rc.2",
     "pug-cli": "^1.0.0-alpha6",
