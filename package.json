@@ -1,9 +1,12 @@
 {
-  "name": "static-site",
-  "version": "1.0.0",
+  "name": "staticsite",
+  "version": "0.0.1",
   "description": "archive site for email and staging site for web",
   "main": "app.js",
-  "repository": "https://github.com/jwellsasi/static-site",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwellsasi/static-site.git"
+  },
   "scripts": {
     "test": "mocha"
   },
@@ -21,5 +24,12 @@
     "nodemon": "^1.11.0",
     "pug": "^2.0.0-rc.2",
     "pug-cli": "^1.0.0-alpha6"
+  },
+  "bugs": {
+    "url": "https://github.com/jwellsasi/static-site/issues"
+  },
+  "homepage": "https://github.com/jwellsasi/static-site#readme",
+  "directories": {
+    "test": "test"
   }
 }
