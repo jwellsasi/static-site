@@ -25,3 +25,9 @@ npm init
 ```python
 python site-dependecies.py
 ```
+
+# Run gulp and Start Node Server
+
+```
+gulp
+```
