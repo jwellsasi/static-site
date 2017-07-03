@@ -9,8 +9,13 @@ print "css download complete"
 
 fetchjs = urllib.URLopener()
 fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/animsition.min.js", 
-				  "public/js//vendor/animsition.min.js")
-print "js1 download complete"
+				  "public/js/vendor/animsition.min.js")
+print "animsition.min.js download complete"
+
+fetchjs = urllib.URLopener()
+fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/main.js", 
+				  "public/js/main.js")
+print "main.js download complete"
 
 '''
     <script type="text/javascript" src="/Scripts/ASIMix/main.js"></script>
