@@ -31,8 +31,3 @@ print "mobile-nav.js download complete"
 
 fetchjs.retrieve(d+"/Scripts/ASIMix/vendor/slick.min.js", "public/js/vendor/slick.min.js")
 print "slick.min.js download complete"
-
-'''
-    <script type="text/javascript" src="/Scripts/ASIMix/vendor/slick.min.js"></script>
-
-'''
