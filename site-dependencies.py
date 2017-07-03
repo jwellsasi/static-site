@@ -20,9 +20,11 @@ fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/jquery
 				  "public/js/vendor/jquery.menu-aim.js")
 print "jquery.menu-aim.js download complete"
 
+fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/typeahead.jquery.min.js", 
+				  "public/js/vendor/typeahead.jquery.min.js")
+print "typeahead.jquery.min.js download complete"
+
 '''
-    <script type="text/javascript" src="/Scripts/ASIMix/vendor/jquery.menu-aim.js"></script>
-    <script type="text/javascript" src="/Scripts/ASIMix/vendor/typeahead.jquery.min.js"></script>
     <script type="text/javascript" src="/Scripts/ASIMix/vendor/typeahead.bundle.min.js"></script>
     <script type="text/javascript" src="/Scripts/ASIMix/vendor/jquery.aim.min.js"></script>
     <script type="text/javascript" src="/Scripts/ASIMix/mobile-nav.js"></script>
