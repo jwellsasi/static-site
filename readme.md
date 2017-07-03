@@ -17,6 +17,7 @@ git clone https://github.com/jwellsasi/static-site.git
 
 ```javascript
 npm init
+npm install
 
 ```
 
