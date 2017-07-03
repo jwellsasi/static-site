@@ -12,12 +12,10 @@ fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/animsi
 				  "public/js/vendor/animsition.min.js")
 print "animsition.min.js download complete"
 
-fetchjs = urllib.URLopener()
 fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/main.js", 
 				  "public/js/main.js")
 print "main.js download complete"
 
-fetchjs = urllib.URLopener()
 fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/jquery.menu-aim.js", 
 				  "public/js/vendor/jquery.menu-aim.js")
 print "jquery.menu-aim.js download complete"
