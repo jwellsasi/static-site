@@ -7,3 +7,15 @@ mixin head(canonical, title, description)
     title #{title}
     //- canonical tag goes here
     link(rel="canonical" href=`http://localhost:3000/${canonical}`)
+    //- site dependency scripts
+    link(href="js/main.js")
+    link(href="js/mobile-nav.js")
+    //- site vendor dependencies
+    script(src="js/vendor/animsition.min.js")
+    script(src="js/vendor/jquery.aim.min.js")
+    script(src="js/vendor/jquery.menu-aim.js")
+    script(src="js/vendor/slick.min.js")
+    script(src="js/vendor/typeahead.bundle.min.js")
+    script(src="js/vendor/typeahead.jquery.min.js")
+    //- site css dependencies
+    link(rel="stylesheet" type="text/css" href="css/styles.css")
