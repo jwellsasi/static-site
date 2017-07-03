@@ -1,32 +1,30 @@
 import urllib
 
 filelist = []
+d = "http://www.valuecityfurniture.com"
 
 fetchcss = urllib.URLopener()
-fetchcss.retrieve("http://www.valuecityfurniture.com/Content/ValueCityMix/styles/styles.css", 
-				  "public/css/styles.css")
+fetchcss.retrieve(d+"/Content/ValueCityMix/styles/styles.css", "public/css/styles.css")
 print "css download complete"
 
 fetchjs = urllib.URLopener()
-fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/animsition.min.js", 
-				  "public/js/vendor/animsition.min.js")
+fetchjs.retrieve(d+"/Scripts/ASIMix/vendor/animsition.min.js", "public/js/vendor/animsition.min.js")
 print "animsition.min.js download complete"
 
-fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/main.js", 
-				  "public/js/main.js")
+fetchjs.retrieve(d+"/Scripts/ASIMix/main.js", "public/js/main.js")
 print "main.js download complete"
 
-fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/jquery.menu-aim.js", 
-				  "public/js/vendor/jquery.menu-aim.js")
+fetchjs.retrieve(d+"/Scripts/ASIMix/vendor/jquery.menu-aim.js", "public/js/vendor/jquery.menu-aim.js")
 print "jquery.menu-aim.js download complete"
 
-fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/typeahead.jquery.min.js", 
-				  "public/js/vendor/typeahead.jquery.min.js")
+fetchjs.retrieve(d+"/Scripts/ASIMix/vendor/typeahead.jquery.min.js", "public/js/vendor/typeahead.jquery.min.js")
 print "typeahead.jquery.min.js download complete"
 
-fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/typeahead.bundle.min.js", 
-				  "public/js/vendor/typeahead.bundle.min.js")
+fetchjs.retrieve(d+"/Scripts/ASIMix/vendor/typeahead.bundle.min.js", "public/js/vendor/typeahead.bundle.min.js")
 print "typeahead.bundle.min.js download complete"
+
+fetchjs.retrieve(d+"/Scripts/ASIMix/vendor/jquery.aim.min.js", "public/js/vendor/jquery.aim.min.js")
+print "jquery.aim.min.js download complete"
 
 '''
     <script type="text/javascript" src="/Scripts/ASIMix/vendor/jquery.aim.min.js"></script>
