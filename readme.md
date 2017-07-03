@@ -7,7 +7,7 @@
 * chai
 * gulp
 
-# Sync External Dependencies by running the following command
+# Sync External Dependencies with following command
 
 ```python
 python site-dependecies.py
