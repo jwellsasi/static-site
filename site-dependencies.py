@@ -2,7 +2,23 @@ import urllib
 
 filelist = []
 
-testfile = urllib.URLopener()
-testfile.retrieve("http://www.valuecityfurniture.com/Content/ValueCityMix/styles/styles.css", 
+fetchcss = urllib.URLopener()
+fetchcss.retrieve("http://www.valuecityfurniture.com/Content/ValueCityMix/styles/styles.css", 
 				  "public/css/styles.css")
-print "file download complete!"
+print "css download complete"
+
+fetchjs = urllib.URLopener()
+fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/animsition.min.js", 
+				  "public/js//vendor/animsition.min.js")
+print "js1 download complete"
+
+'''
+    <script type="text/javascript" src="/Scripts/ASIMix/main.js"></script>
+    <script type="text/javascript" src="/Scripts/ASIMix/vendor/jquery.menu-aim.js"></script>
+    <script type="text/javascript" src="/Scripts/ASIMix/vendor/typeahead.jquery.min.js"></script>
+    <script type="text/javascript" src="/Scripts/ASIMix/vendor/typeahead.bundle.min.js"></script>
+    <script type="text/javascript" src="/Scripts/ASIMix/vendor/jquery.aim.min.js"></script>
+    <script type="text/javascript" src="/Scripts/ASIMix/mobile-nav.js"></script>
+    <script type="text/javascript" src="/Scripts/ASIMix/vendor/slick.min.js"></script>
+
+'''
