@@ -24,8 +24,11 @@ fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/typeah
 				  "public/js/vendor/typeahead.jquery.min.js")
 print "typeahead.jquery.min.js download complete"
 
+fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/typeahead.bundle.min.js", 
+				  "public/js/vendor/typeahead.bundle.min.js")
+print "typeahead.bundle.min.js download complete"
+
 '''
-    <script type="text/javascript" src="/Scripts/ASIMix/vendor/typeahead.bundle.min.js"></script>
     <script type="text/javascript" src="/Scripts/ASIMix/vendor/jquery.aim.min.js"></script>
     <script type="text/javascript" src="/Scripts/ASIMix/mobile-nav.js"></script>
     <script type="text/javascript" src="/Scripts/ASIMix/vendor/slick.min.js"></script>
