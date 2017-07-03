@@ -17,8 +17,12 @@ fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/main.js",
 				  "public/js/main.js")
 print "main.js download complete"
 
+fetchjs = urllib.URLopener()
+fetchjs.retrieve("http://www.valuecityfurniture.com/Scripts/ASIMix/vendor/jquery.menu-aim.js", 
+				  "public/js/vendor/jquery.menu-aim.js")
+print "jquery.menu-aim.js download complete"
+
 '''
-    <script type="text/javascript" src="/Scripts/ASIMix/main.js"></script>
     <script type="text/javascript" src="/Scripts/ASIMix/vendor/jquery.menu-aim.js"></script>
     <script type="text/javascript" src="/Scripts/ASIMix/vendor/typeahead.jquery.min.js"></script>
     <script type="text/javascript" src="/Scripts/ASIMix/vendor/typeahead.bundle.min.js"></script>
