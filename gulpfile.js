@@ -13,6 +13,16 @@ gulp.task('pages', function(){
     .pipe(gulp.dest('build'))    
 });
 
+// gulp task that will re-compile 
+// the templates to html
+gulp.task('partials', function(){  
+  return gulp.src('view/partials/*.pug')
+    .pipe(pug({
+      pretty: true
+    }))  
+    .pipe(gulp.dest('build'))    
+});
+
 // start the node server
 gulp.task('server', function (cb) {
   exec('node app.js', function (err, stdout, stderr) {
@@ -26,6 +36,7 @@ gulp.task('server', function (cb) {
 // then restart the server
 gulp.task('watch', function(){
   gulp.watch('view/pages/*.pug', ['pages','server']);
+  gulp.watch('view/partials/*.pug', ['partials','server']);
 })
 
 gulp.task('default', ['pages', 'watch', 'server'])
