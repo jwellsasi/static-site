@@ -1,0 +1,1067 @@
+/* **************************************
+- MIX CSS
+- ASI OVERRIDE STYLES
+- V1.0 : 04/18/2017
+- LAST UPDATED : 04/16/2017 8:00AM
+- COPYRIGHT 2017 American Signature, INC.
+- ALL RIGHTS RESEVERVED
+*************************************** */
+
+
+.asi-section {
+	display:block;
+	position:relative;
+	width:100%;
+	padding:0px 0px;
+	margin:0px 0px;
+}
+
+.asi-section,
+.asi-hero .jumbotron {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.asi-hero img.asi-mix-logo {
+	max-width:268px !important;
+}
+
+#asi-hero-module-2 .asi-row {
+	display:table;
+	height:100%;
+	width:100%;
+	padding:0;
+	margin:0 auto;
+	text-align:center;
+}
+	#asi-hero-module-2 .asi-row [class*="col-"] {
+		display:table-cell;
+		vertical-align:middle;
+		text-align:center;
+	}
+
+.asi-section-content {
+	position:relative;
+}
+
+
+.asi-hero .asi-section-content {
+	z-index:2 !important;
+  padding-top:80px;
+  padding-bottom:80px;
+}
+.asi-eh-row { display: table; }
+.asi-eh-row [class*="col-"] {
+		float: none;
+		display: table-cell;
+		vertical-align: middle;
+}
+div.asi-section-title, 
+div.asi-display-1 {
+	font-size:72px !important;
+	color:#fff;
+	word-wrap: break-word;
+	margin: 0px auto;
+	font-family:'Knockout-HTF49-Liteweight', 'ProximaNova-Bold','Proxima-Nova-Bold','Proxima NovaBold', sans-serif;
+	letter-spacing:3.5px;
+	line-height:1;
+	padding-top:45px !important;
+}
+.asi-section-content h2.asi-section-title,
+.asi-section-content h2,
+h2.asi-section-title, .asi-display-2 {
+	font-size:54px !important;
+	color:#fff;
+	word-wrap: break-word;
+	margin: 0px auto;
+	font-family:'Knockout-HTF29-JuniorLiteweight','ProximaNova-Semibold', 'ProximaNova-Semibold', sans-serif;
+	letter-spacing:1px;
+	line-height:1;
+}
+.asi-section-content h3.asi-section-title,
+.asi-section-content h3,
+h3.asi-section-title, .asi-display-3 {
+	font-size:44px !important;
+	color:#fff;
+	word-wrap: break-word;
+	margin: 0px auto;
+	font-family:'Knockout-HTF29-JuniorLiteweight','ProximaNova-Semibold', 'ProximaNova-Semibold', sans-serif;
+	letter-spacing: 1px;
+	line-height:1;
+}
+.asi-section-content h4.asi-section-title,
+.asi-section-content h4,
+h4.asi-section-title, .asi-display-4 {
+	font-size:32px !important;
+	color:#fff;
+	word-wrap: break-word;
+	margin: 0px auto;
+	font-family:'Knockout-HTF29-JuniorLiteweight','ProximaNova-Semibold', 'ProximaNova-Semibold', sans-serif;
+	letter-spacing: 1px;
+	line-height:1;
+}
+.asi-section-content p {
+  	font-size:16px;
+	word-wrap: break-word;
+	font-family:'ProximaNova-Regular', 'Proxima Nova', sans-serif;
+  	letter-spacing:1px;
+  	font-weight:300;
+}
+.asi-section-content p.asi-lead,
+.asi-section-content .asi-lead{
+  	font-size:18px !important;
+  	font-family:'Proxima Nova Bold','ProximaNova-Bold','Proxima-Nova-Bold',sans-serif;
+  	letter-spacing:0.5px;
+    padding:0 0 !important;
+    margin:0 auto !important;
+    line-height:1.375;
+}
+
+.asi-section-content .asi-sub-section p.asi-sub-section-text,
+.asi-sub-section p.asi-sub-section-text,
+p.asi-sub-section-text {
+	font-family:'ProximaNova-Semibold', 'Proxima Nova Semibold', 'ProximaNovaSemibold', sans-serif !important;
+}
+
+.asi-hero img.asi-mix-logo{ 
+	max-width:315px !important;
+	padding:0 !important;
+	margin:0 auto !important; 
+}
+
+.asi-btn + .asi-btn { margin-left:1rem !important; }
+
+.asi-banner .asi-col-12 {
+	position:relative !important;
+}
+
+.asi-banner-link {
+	text-decoration: none !important;
+}
+
+.asi-shop-by-section .asi-box,
+.asi-shop-by-section .asi-shop-by-box {
+	position:relative;
+	padding:0 0;
+	margin:0 0;
+	z-index:1;
+}
+.asi-shop-by-section .asi-card-title {
+	display:block;
+	position:absolute;
+  width:100%;
+  max-width:100%;
+	z-index:2;
+	top:25px;
+	left:0;
+	text-align:center;
+	margin:0;
+	padding:0;
+	font-size:34px;
+	font-family:'Knockout-HTF29-JuniorLiteweight','ProximaNova-Semibold', 'ProximaNova-Semibold', sans-serif;
+	letter-spacing:1px;
+}
+.asi-shop-by-section .asi-card-footer {
+	display:block;
+	position:absolute;
+  width:100%;
+  max-width:100%;
+	z-index:2;
+	bottom:15px;
+	left:0;
+	text-align:center;
+	margin:0;
+	padding:0;
+	letter-spacing:1px;
+  font-weight:600;
+}
+.asi-shop-by-section .asi-card-footer p {
+  font-size:14px !important;
+	 font-family:'Proxima Nova Bold','ProximaNova-Bold','Proxima-Nova-Bold',sans-serif;
+}
+/*** IMPORTANT: ASI OVERRIDES ***/
+/*** GLOBAL BUTTON & COLOR STYLES ***/
+.home-content { 
+  font-size:16px !important;
+  font-family: 'ProximaNova-Regular', 'Proxima Nova', 'ProximaNova', sans-serif !important;
+}
+.asi-section strong,
+.asi-section .strong,
+.asi-section b,
+.asi-section .bold
+strong,
+b {
+	font-family:'Proxima Nova Bold','ProximaNova-Bold','Proxima-Nova-Bold',sans-serif !important;
+}
+.asi-section .row,
+.asi-row {
+	background:none !important;
+}
+
+.asi-section-subtitle {
+	display:block !important;
+	position:relative !important;
+}
+.asi-heading-rule {
+	letter-spacing: 1px;
+	text-align: center;
+	color: #181818;
+	text-transform: uppercase;
+	font-size: 18px !important;
+	font-family:'Proxima Nova Bold','ProximaNova-Bold','Proxima-Nova-Bold',sans-serif !important;
+}
+.asi-heading-rule::before {
+	position: absolute;
+	content: '';
+	left: 0;
+	right: 0;
+	top: 50%;
+	border-bottom: 1px solid #181818;
+	height: 1px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.asi-heading-rule-text {
+	position:relative;
+	background-color:#ffffff;
+	z-index:2;
+	padding:0 15px;
+	margin:0 auto;
+}
+
+.asi-section .btn,
+.asi-section .asi-btn,
+.asi-btn-link,
+.asi-section .asi-btn-link
+{
+  border:1.5px solid transparent;
+  box-shadow: none;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.asi-btn, 
+.asi-section .btn,
+.asi-btn-link,
+.asi-section .asi-btn-link
+{
+	border-radius: 0 !important;
+	border-width: 1.5px !important;
+	padding: 10px 20px !important;
+	font-family: 'ProximaNova-Regular', 'Proxima Nova', 'ProximaNova', sans-serif;
+	font-weight: 300 !important;
+	font-size: 14px !important;
+	margin-top:15px !important;
+	margin-bottom:15px; !important;
+  letter-spacing:2px !important;
+}
+.asi-btn-lg,
+.asi-section .btn-lg 
+{
+  font-size:18px !important;
+  padding: 15px 25px !important;
+}
+.asi-btn-link,
+.asi-section .asi-btn-link {
+	background:none !important;
+	border-color:none !important;
+}
+	.asi-btn-link::after {
+		content:"\203A";
+		margin-left:6px;
+		font-size:20px;
+		font-weight:500;
+	}
+.asi-btn-outline {
+	background:none !important;
+}
+.asi-btn-white-outline {
+  border-color:#fff !important;
+}
+
+.asi-btn-primary {
+	background-color: #ed2f32 !important;
+	border-color: #ed2f32 !important;
+	color: #fff;
+}
+	.asi-btn-primary:hover, 
+	.asi-btn-primary:focus,
+	.asi-btn-primary:active,
+	.asi-btn-primary.focus,
+	.asi-btn-primary.active {
+		background-color: #cc0000 !important;
+		border-color: #cc0000 !important;
+	}
+	.asi-btn-link:hover, 
+	.asi-btn-link:focus,
+	.asi-btn-link:active,
+	.asi-btn-link.focus,
+	.asi-btn-link.active {
+		background:none !important;
+		font-size:18px !important;
+		font-weight:500 !important;
+		color:#efefea !important;
+		text-decoration:none !important;
+		
+	}	
+.asi-white { color:#ffffff !important; }
+.asi-btn-white {
+	background-color: #fff;
+	border-color: #fff;
+	color: #fff;
+}
+	.asi-btn-white-outline {
+		background-color: none;
+		border-color: #fff;
+		color: #fff;
+	}
+	.asi-btn-white:hover,
+	.asi-btn-white:focus,
+	.asi-btn-white:active,
+	.asi-btn-white.focus,
+	.asi-btn-white.active,
+	.asi-btn-white-outline:hover,
+	.asi-btn-white-outline:focus,
+	.asi-btn-white-outline:active,
+	.asi-btn-white-outline.focus,
+	.asi-btn-white-outline.active {
+		color: #525050;
+		background-color: #fff !important;
+		border-color: #fff;
+	}
+		
+.asi-black { color:#000 !important; }
+	.asi-black-bg {background-color: #000 !important; }
+	
+.asi-dark { color:#231f20 !important; }
+	.asi-dark-bg {background-color: #231f20 !important; }
+
+.asi-darker { color:#181818 !important; }
+	.asi-darker-bg {background-color: #181818 !important; }
+	
+.asi-blue { color:#3da0eb !important; }
+	.asi-blue-bg {background-color: #3da0eb !important; }
+
+.asi-red { color: #d34863 !important; }
+	.asi-red-bg { background-color: #d34863 !important; }
+	
+.asi-brand-red { color:#e4002b !important; }
+	.asi-brand-red-bg {background-color: #e4002b !important; }
+	
+.asi-green { color:#79BD10 !important; }
+	.asi-green-bg {background-color: #79BD10 !important; }
+	
+.asi-tan { color: #efefea !important; }
+	.asi-tan-bg {background-color: #efefea !important; }
+
+.asi-lt-gray { color: #a5a5a5 !important; }
+	.asi-lt-gray-bg {background-color: #a5a5a5 !important; }
+
+.asi-md-gray { color: #525050 !important; }
+	.asi-md-gray-bg {background-color: #525050 !important; }
+
+.asi-white { color: #ffffff !important; }
+	.asi-white-bg {background-color: #525050 !important; }
+	
+.asi-small, 
+.asi-section p.asi-small
+ { 
+	font-size:13px; 
+	color:#525050;
+}
+	.asi-banner a{text-decoration:underline;}
+
+.asi-mix-video-container {
+	opacity:0;
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 0; 
+	padding: 0px 0px; 
+	margin: 0px 0px;
+}
+.asi-section .asi-section-content-wrapper a,
+.asi-section .asi-heading-rule-text,
+.asi-section .asi-lead,
+.asi-section .asi-lead span {
+	letter-spacing:2.5px !important;
+}
+p.asi-lead .asi-hero-ribbon-text,
+p.asi-lead span.asi-hero-ribbon-text,
+.asi-mix-page-nav .asi-hero-ribbon-text {
+   	font-family:'Proxima Nova Bold','ProximaNova-Bold','Proxima-Nova-Bold',sans-serif;
+   	font-size:18px;
+   	line-height:1;
+   	padding-top:20px;
+   	padding-bottom:20px;
+}
+	.asi-mix-navbar a.asi-text-link,
+	.asi-mix-navbar a,
+	.asi-mix-navbar ul li a {
+		font-family:'ProximaNova-Regular','Proxima Nova Regular','Proxima-Nova-Regular',sans-serif;
+		text-decoration:none;
+	}
+		.asi-mix-navbar a.asi-text-link:hover,
+		.asi-mix-navbar a:hover,
+		.asi-mix-navbar a:focus,
+		.asi-mix-navbar a:active,
+		.asi-mix-navbar ul li a:hover,
+		.asi-mix-navbar ul li a:focus,
+		.asi-mix-navbar ul li a:active,
+		a.asi-text-link:hover span {
+			color: #e4002b !important;
+			text-decoration:none;
+		}
+
+	#asi-mix-navbar { background:#efefea; }
+
+#asi-promo-module-2 .asi-section-content-wrapper a {
+	font-size:16px !important;
+	letter-spacing:2px;
+	font-family:'Proxima Nova Regular','ProximaNova-Regular','Proxima-Nova-Regular',sans-serif;
+}
+#asi-promo-module-2 .asi-section-content wrapper a img.asi-arrow-icon,
+img.asi-arrow-icon {
+	margin-top:-1px;
+	padding-left:3px;
+	height: 12px;
+}
+#asiStoreLocatorFooterInput {
+	border: 2px solid #181818;
+	border-radius: 0px;
+	padding: 10px;
+	color: #525050;
+	background-color: #f4f4f4;
+	font-size: 15px;
+	font-style: italic;
+	width:400px;
+	max-width: 100%;
+	min-width:300px;
+}
+.home-content { padding-bottom:0px !important; }
+
+/* elements to hide */
+div.home-seo,
+section.home-content div.home-seo {
+	display:none !important;
+	visibility:hidden !important;
+}
+
+.asi-hero .container,
+.asi-video-hero .container,
+#asi-hero-module-4-1 .container {
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+}
+
+#asi-shop-style-module-1 .asi-section-content-wrapper {
+	background-repeat: no-repeat !important;
+	background-position: bottom center;
+}
+}
+
+/*** ASI PADDING CLASS HELPERS : BEGIN ***/
+
+	.asi-pd-0 {padding:0px 0px 0px 0px !important; }
+		.asi-pt-0 {padding-top:0px !important; }
+		.asi-pb-0 {padding-bottom:0px !important; }
+		.asi-pl-0 {padding-left:0px !important; }
+		.asi-pr-0 {padding-right:0px !important; }
+			.asi-ptb-0 {padding-top:0px; padding-bottom:0px !important; }
+			.asi-plr-0 {padding-left:0px; padding-right:0px !important; }
+			
+	.asi-pd-5 {padding:5px 5px 5px 5px !important; }
+		.asi-pt-5 {padding-top:5px !important; }
+		.asi-pb-5 {padding-bottom:5px !important; }
+		.asi-pl-5 {padding-left:5px !important; }
+		.asi-pr-5 {padding-right:5px !important; }
+			.asi-ptb-5 {padding-top:5px; padding-bottom:5px !important; }
+			.asi-plr-5 {padding-left:5px; padding-right:5px !important; }
+	
+	.asi-pd-10 {padding:10px 10px 10px 10px !important; }
+		.asi-pt-10 {padding-top:10px !important; }
+		.asi-pb-10 {padding-bottom:10px !important; }
+		.asi-pl-10 {padding-left:10px !important; }
+		.asi-pr-10 {padding-right:10px !important; }
+			.asi-ptb-10 {padding-top:10px; padding-bottom:10px !important; }
+			.asi-plr-10 {padding-left:10px; padding-righ:10px !important; }
+	
+	.asi-pd-15 {padding:15px 15px 15px 15px !important; }	
+		.asi-pt-15 {padding-top:15px !important; }
+		.asi-pb-15 {padding-bottom:15px !important; }
+		.asi-pl-15 {padding-left:15px !important; }
+		.asi-pr-15 {padding-right:15px !important; }
+			.asi-ptb-15 {padding-top:15px; padding-bottom:15px !important; }
+			.asi-plr-15 {padding-left:15px; padding-right:15px !important; }
+	
+	.asi-pd-25 {padding:25px 25px 25px 25px !important; }	
+		.asi-pt-25 {padding-top:25px !important; }
+		.asi-pb-25 {padding-bottom:25px !important; }
+		.asi-pl-25 {padding-left:25px !important; }
+		.asi-pr-25 {padding-right:25px !important; }
+			.asi-ptb-25 {padding-top:25px; padding-bottom:25px !important; }
+			.asi-plr-25 {padding-left:25px; padding-right:25px !important; }
+			
+/*** ASI PADDING CLASS HELPERS : END ***/
+
+/*** ASI FONT HELPER CLASSES : BEGIN ***/
+
+/* KNOCKOUT FONTS */
+.asi-ko-29 { font-family:'Knockout 29 A', 'Knockout 29 B', 'ProximaNova-Semibold', sans-serif !important; }
+.asi-ko-49 { font-family:'Knockout-HTF49-Liteweight', 'ProximaNova-Semibold', sans-serif !important; }
+
+/* PROXIMA NOVA FONTS */
+.asi-pxn-r { font-family:'Proxima Nova Regular','ProximaNova-Regular','Proxima-Nova-Regular',sans-serif !important; }
+.asi-pxn-sb { font-family:'Proxima Nova Semibold','ProximaNova-Semibold','Proxima-Nova-Semibold',sans-serif !important; }
+.asi-pxn-b { font-family:'Proxima Nova Bold','ProximaNova-Bold','Proxima-Nova-Bold',sans-serif !important; }
+
+/* COMMON FONT SIZES */
+.asi-fs-12 { font-size:12px !important; }
+.asi-fs-13 { font-size:13px !important; }
+.asi-fs-14 { font-size:14px !important; }
+.asi-fs-15 { font-size:15px !important; }
+.asi-fs-16 { font-size:16px !important; }
+.asi-fs-18 { font-size:18px !important; }
+.asi-fs-20 { font-size:20px !important; }
+.asi-fs-22 { font-size:22px !important; }
+.asi-fs-24 { font-size:24px !important; }
+.asi-fs-25 { font-size:25px !important; }
+.asi-fs-28 { font-size:28px !important; }
+.asi-fs-30 { font-size:30px !important; }
+.asi-fs-34 { font-size:34px !important; }
+.asi-fs-36 { font-size:36px !important; }
+.asi-fs-40 { font-size:40px !important; }
+.asi-fs-45 { font-size:45px !important; }
+.asi-fs-46 { font-size:46px !important; }
+.asi-fs-48 { font-size:48px !important; }
+.asi-fs-54 { font-size:54px !important; }
+.asi-fs-60 { font-size:60px !important; }
+.asi-fs-72 { font-size:72px !important; }
+.asi-fs-80 { font-size:80px !important; }
+
+/* COMMON LETTER SPACING */
+.asi-lp-0-25 { letter-spacing:1.25px !important; }
+	.asi-lp-0-375 { letter-spacing:1.75px !important; }
+		.asi-lp-0-5 { letter-spacing:1.5px !important; }
+			.asi-lp-0-75 { letter-spacing:1.75px !important; }
+
+.asi-lp-1 { letter-spacing:1px !important; }
+	.asi-lp-1-25 { letter-spacing:1.25px !important; }
+		.asi-lp-1-5 { letter-spacing:1.5px !important; }
+			.asi-lp-1-75 { letter-spacing:1.75px !important; }
+
+.asi-lp-1 { letter-spacing:1px !important; }
+	.asi-lp-1-25 { letter-spacing:1.25px !important; }
+		.asi-lp-1-5 { letter-spacing:1.5px !important; }
+			.asi-lp-1-75 { letter-spacing:1.75px !important; }
+
+.asi-lp-2 { letter-spacing:2px !important; }
+	.asi-lp-2-25 { letter-spacing:2.25px !important; }
+		.asi-lp-2-5 { letter-spacing:2.5px !important; }
+			.asi-lp-2-75 { letter-spacing:2.75px !important; }
+
+.asi-lp-3 { letter-spacing:3px !important; }
+	.asi-lp-3-25 { letter-spacing:3.25px !important; }
+		.asi-lp-3-5 { letter-spacing:3.5px !important; }
+			.asi-lp-3-75 { letter-spacing:3.75px !important; }
+
+/*** ASI FONT HELPER CLASSES : END ***/
+
+/*** ASI HERO BACKGROUND IMAGES & HEIGHTS ***/
+.asi-section .jumbotron { margin:0px 0px; }
+#asi-mtm-hero-module-1 .jumbotron { 
+   background:url("https://asf.scene7.com/is/image/ASF/asi-made-to-mix-hero-1.jpg") center center;
+}
+	#asi-mtm-hero-module-1 .jumbotron .asi-eh-row { 
+		height:420px; 
+		margin:0px auto;
+		padding:0px 0px;
+	}
+.asi-section a.asi-text-link:hover {
+	color:#e4002b !important;
+}
+.asi-video-container .embed-responsive.embed-responsive-16by9 {
+	padding-bottom: 50.25%;
+}
+/*** IMPORTANT: ASI MEDIA QUERIES ***/
+@media screen and (max-width:768px){
+
+	.asi-hero-banner-message {
+		margin-top:-10px !important;
+	}
+	.asi-section-content {
+		/*padding:25px 15px !important;*/
+		text-align:center !important;
+	}
+	.asi-section-content p {
+  		font-size:13px !important;
+	}
+	.asi-section-content p.asi-lead,
+	.asi-section-content .asi-lead {
+  		font-size:15px !important;
+    	line-height:1 !important;
+    	padding-bottom:0.5rem !important;
+	}
+  	.asi-section-content h2.asi-section-title,
+  	.asi-section-content h2,
+  	h2.asi-section-title {
+		font-size:42px !important;
+	}
+  	.asi-section-content h3.asi-section-title,
+	.asi-section-content h3,
+	h3.asi-section-title, .asi-display-3 {
+		font-size:24px !important;
+	}
+	.asi-section-content h4.asi-section-title,
+	.asi-section-content h4,
+	h4.asi-section-title, .asi-display-4 {
+		font-size:32px !important;
+	}
+	div.asi-section-title, 
+	div.asi-display-1 {
+		font-size:60px !important;
+	}
+	.asi-btn + .asi-btn { margin-left: 0 !important; }
+	.asi-section p.lead {
+		font-size: 16px !important;
+	}
+	#asi-promo-module-2 .asi-section-content wrapper a {
+		font-size:14px !important;
+		letter-spacing:2px;
+	}
+  .asi-btn + .asi-btn,
+  .asi-section-btn .asi-btn-lg,
+  .asi-section-btn .asi-btn,
+  .asi-btn, 
+  .asi-section .btn
+  .asi-btn-lg,
+  .asi-section .btn-lg {
+	margin:10px auto !important;
+	display:block !important;
+	max-width:80%;
+  }
+	.asi-eh-row { display: table; }
+  .asi-eh-row [class*="col-"] {
+		float: none;
+		display: block;
+		vertical-align: middle;
+		padding:5px 5px;
+  }
+	.asi-heading-rule-text {
+		font-size: 12px;
+	}
+  div, span, p, a, ul, ol, li, .asi-section, body, html { 
+  	-webkit-text-size-adjust: 100% !important; 
+  }
+  .asi-display-3 {padding-bottom:0px !important;}
+  .asi-mix-navbar ul{ line-height: 1.75; word-wrap: break-word; }
+
+  
+  /*** MOBILE XS HELPERS ***/		
+	.asi-xs-pd-0 {padding:0px 0px 0px 0px;}
+		.asi-xs-pt-0 {padding-top:0px;}
+		.asi-xs-pb-0 {padding-bottom:0px;}
+		.asi-xs-pl-0 {padding-left:0px;}
+		.asi-xs-pr-0 {padding-right:0px;}
+			.asi-xs-ptb-0 {padding-top:0px; padding-bottom:0px;}
+			.asi-xs-plr-0 {padding-left:0px; padding-right:0px;}
+			
+	.asi-xs-pd-5 {padding:5px 5px 5px 5px;}
+		.asi-xs-pt-5 {padding-top:5px;}
+		.asi-xs-pb-5 {padding-bottom:5px;}
+		.asi-xs-pl-5 {padding-left:5px;}
+		.asi-xs-pr-5 {padding-right:5px;}
+			.asi-xs-ptb-5 {padding-top:5px; padding-bottom:5px;}
+			.asi-xs-plr-5 {padding-left:5px; padding-right:5px;}
+	
+	.asi-xs-pd-10 {padding:10px 10px 10px 10px;}
+		.asi-xs-pt-10 {padding-top:10px;}
+		.asi-xs-pb-10 {padding-bottom:10px;}
+		.asi-xs-pl-10 {padding-left:10px;}
+		.asi-xs-pr-10 {padding-right:10px;}
+			.asi-xs-ptb-10 {padding-top:10px; padding-bottom:10px;}
+			.asi-xs-plr-10 {padding-left:10px; padding-righ:10px;}
+	
+	.asi-xs-pd-15 {padding:15px 15px 15px 15px;}	
+		.asi-xs-pt-15 {padding-top:15px;}
+		.asi-xs-pb-15 {padding-bottom:15px;}
+		.asi-xs-pl-15 {padding-left:15px;}
+		.asi-xs-pr-15 {padding-right:15px;}
+			.asi-xs-ptb-15 {padding-top:15px; padding-bottom:15px;}
+			.asi-xs-plr-15 {padding-left:15px; padding-right:15px;}
+	
+	.asi-xs-pd-25 {padding:25px 25px 25px 25px;}	
+		.asi-xs-pt-25 {padding-top:25px;}
+		.asi-xs-pb-25 {padding-bottom:25px;}
+		.asi-xs-pl-25 {padding-left:25px;}
+		.asi-xs-pr-25 {padding-right:25px;}
+			.asi-xs-ptb-25 {padding-top:25px; padding-bottom:25px;}
+			.asi-xs-plr-25 {padding-left:25px; padding-right:25px;}
+
+
+	#asi-shop-by-module-v-2 .asi-shop-by-room-heading {
+		font-size:20px !important;
+		font-family:'Knockout-HTF29-JuniorLiteweight','ProximaNova-Semibold', sans-serif !important;
+	}
+	#asi-mtm-hero-module-1 .jumbotron { 
+   	  /*
+   		SET MOBILE BACKGROUND IMAGE HERE
+   		background:url("https://asf.scene7.com/is/image/ASF/asi-made-to-mix-hero-1.jpg") center center;
+   	  */
+   	  background-position: center center;
+	}
+	#asi-mtm-hero-module-1 .jumbotron .asi-eh-row { 
+		height:300px; 
+		margin:0px auto;
+		padding:0px 0px;
+	}
+	.asi-section .jumbotron #asi-hero-mix-icon { width:180px !important; }
+}
+/* mix landing page video player */
+.asi-container .clearfix,
+#custom-page-body div.clearfix { height:0px !important; line-height:0; font-size:0;}
+/* Parent element can be any width and height */ 
+.asi-yt-dismiss {
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:101;
+    cursor:pointer;
+}
+.parent{
+    position: fixed;
+    width: 100%; /* can be any width */
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+    text-align: center;
+}
+
+.parent:before{ /* pseudo element to force vertical centering of child element */
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.parent:after{ /* pseudo element to create overlay */
+    background: black;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 99;
+}
+.asi-yt-overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:99;
+    background:#000;
+    opacity:0.5;
+    width:100%;
+    height:100%;
+}
+
+/* Centered child element can be any width and height */ 
+.centeredchild{
+    position: relative; /* position element to participate in z-indexing */
+    z-index: 100; /* higher z-index than overlay */
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    border:10px solid #000;
+    margin-top:2%; /* can be any width */
+}
+
+/* Video container to maintain Youtube 16:9 aspect ratio */ 
+.videowrapper{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+}
+
+/* Make Youtube IFRAME responsive */ 
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width:1200px){
+	.asi-section .container {
+		width:100%;
+		max-width:1200px;
+		padding:0px 10px !important;
+	}
+	.asi-section .container .asi-shop-by-box .img-responsive {
+		width:100% !important;
+		padding:0px 0px !important;
+		margin:0px 0px !important;
+	}
+	.asi-section .container .asi-row {
+		margin-left:0px !important;
+		margin-right:0px !important;
+	}
+	.asi-section .asi-col-md-4:nth-child(1) {
+		padding-left:0px !important;
+	}
+	.asi-section .asi-col-md-4:nth-child(2) {
+		padding-right:0px !important;
+		padding-left:0px !important;
+	}
+	.asi-section .asi-col-md-4:nth-child(3) {
+	 padding-left:0px !important;
+		margin-right:0px;
+		padding-right:1px;
+	}
+	#asi-hero-module-3 .container:nth-child(2){
+		background:none !important;
+	}
+		#asi-hero-module-3 .container:nth-child(2) .asi-row{
+			background:url("https://asf.scene7.com/is/image/ASF/asi-hero-reclining-furniture-01-1.jpg") !important;
+		}
+	.asi-shop-style-module-1 ["*col-"]:nth-child(1){
+		padding-left:0px;
+	}
+	.asi-shop-style-module-1 ["*col-"]:nth-child(2){
+		padding-right:0px;
+}
+.home-content-row #asi-shop-by-module-v-2 .asi-shop-by-room-heading {
+	font-size:44px !important;
+	font-family:'Knockout-HTF29-JuniorLiteweight','ProximaNova-Semibold', sans-serif !important;
+	line-height:1;
+	top:25px !important;
+}
+.home-content-row #asi-shop-by-module-v-2 .asi-shop-by-room-links{
+	font-size:18px;
+	letter-spacing:0.125rem !important;
+	font-family:'ProximaNova-Bold',sans-serif;
+	color:#ffffff;
+	text-align:center;
+}
+.home-content-row #asi-shop-by-module-v-2 .asi-shop-by-room-links img.asi-arrow-icon {
+	vertical-align:middle;
+	margin-top:-4px !important;
+	margin-left:4px;
+}
+
+/* == HOMEPAGE BROWSE BY ROOM UPDATES == */
+.home-content-row #asi-shop-by-module-v-2 .asi-shop-by-room-heading {
+	font-size:44px !important;
+	font-family:'Knockout-HTF29-JuniorLiteweight','ProximaNova-Semibold', sans-serif !important;
+	top:15px !important;
+	line-height:1 !important;
+	letter-spacing:0.075rem !important;
+}
+	
+.home-content-row #asi-shop-by-module-v-2 .asi-shop-by-room-links{
+	font-size:18px !important;
+	letter-spacing:0.05rem !important;
+	font-family:'ProximaNova-Bold',sans-serif;
+	color:#ffffff;
+	text-align:center;
+	bottom:10px !important;
+}
+
+.asi-mix-page-nav .asi-hero-ribbon-text .list-inline {
+	text-align:right;
+}
+
+#custom-page-body .asi-feature-image {
+    height: 750px !important;
+}
+#asi-hero-video-module-1 .asi-text-link,
+#asi-hero-video-module-2 .asi-text-link,
+#asi-hero-video-module-3 .asi-text-link {
+	font-family:'ProximaNova-Bold', sans-serif !important;
+}
+p.asi-lead .asi-hero-ribbon-text, 
+p.asi-lead span.asi-hero-ribbon-text, 
+.asi-mix-page-nav .asi-hero-ribbon-text,
+#custom-page-body .asi-hero-ribbon-text {
+	text-align: right;
+	margin:0 0;
+	width:100%;
+	font-size:18px;
+}
+#asi-hero-video-module-1 .fa,
+#asi-hero-module-5-2 .fa,
+#asi-hero-module-5-3 .fa {
+	margin-left:4px !important;
+}
+.watch-video {
+	cursor:pointer;
+	position:absolute;
+	bottom:1.25em;
+	width:100%;
+	z-index:10;
+}
+
+@media (max-width:768px) { 
+    #asi-shop-by-module-v-2 .asi-shop-by-room-heading {
+		  font-size:30px !important;
+		  font-family:'Knockout-HTF29-JuniorLiteweight','ProximaNova-Semibold', sans-serif !important;
+		  top:0px !important;
+		margin-top:-25px;
+		  line-height:1 !important;
+		  letter-spacing:0.025rem !important;
+	 }
+	#asi-shop-by-module-v-2 .asi-shop-by-room-links{
+	  font-size:14px !important;
+	  letter-spacing:0.025rem !important;
+	  font-family:'ProximaNova-Bold',sans-serif;
+	  color:#ffffff;
+	  text-align:center;
+		bottom:2px !important;
+  	}
+	/*
+	#asi-shop-by-module-v-2 .asi-shop-by-room-links img.asi-arrow-icon {
+	 vertical-align:middle !important;
+	 margin-bottom:-2px !important;
+	 margin-left:2px;
+  	}*/
+  	#asi-shop-by-module-v-2 .asi-arrow-icon { display:none !important; }
+  	#asi-feature-image-hp { 
+		background-image: url("https://asf.scene7.com/is/image/ASF/asi-hero-made-to-mix-m.jpg") !important;
+	}
+
+	.asi-mtm-hero #asi-feature-image-hp,
+	#custom-page-body .asi-feature-image { 
+		background-image: url("https://asf.scene7.com/is/image/ASF/asi-intro-mix-hero-m.jpg");
+	}
+
+	.asi-xs-fs-12 { font-size:12px !important; }		
+	.asi-xs-fs-13 { font-size:13px !important; }
+	.asi-xs-fs-14 { font-size:14px !important; }
+	.asi-xs-fs-15 { font-size:15px !important; }
+	.asi-xs-fs-16 { font-size:16px !important; }
+	.asi-xs-fs-18 { font-size:18px !important; }
+	.asi-xs-fs-20 { font-size:20px !important; }
+	.asi-xs-fs-22 { font-size:22px !important; }
+	.asi-xs-fs-24 { font-size:24px !important; }
+	.asi-xs-fs-30 { font-size:22px !important; }
+	.asi-xs-fs-44 { font-size:24px !important; }
+
+	.xs-text-center { text-align: center !important; }
+
+	#custom-page-body .asi-feature-image-message-link { display:none !important; }
+	.asi-section-content { padding-top:0px !important; padding-bottom:20px !important; }
+
+	#asi-shop-by-style-module-1 .asi-section-content-wrapper:nth-child(1) {
+		background:url("asi-mix-lp-shop-style-untraditional-m.jpg") bottom center !important;
+	}
+	#asi-shop-by-style-module-1 .asi-section-content-wrapper:nth-child(2) {
+		background:url("asi-mix-lp-shop-style-modernish-m.jpg") bottom center !important;
+	}
+	p.asi-lead .asi-hero-ribbon-text, 
+	p.asi-lead span.asi-hero-ribbon-text, 
+	.asi-mix-page-nav .asi-hero-ribbon-text,
+	#custom-page-body .asi-hero-ribbon-text { 
+		font-size:12px !important; 
+		text-align:center !important; 
+		margin:0 auto !important; 
+	}
+	#asi-shop-by-video-module-v-2 [class*="col-"] p,
+	.asi-scroll-icon, .asi-arrow-icon  {
+		display:none !important;
+	}
+	#asi-hero-video-module-1 .asi-lead,
+	#asi-hero-module-5-2 .asi-lead,
+	#asi-hero-module-5-3 .asi-lead {
+		bottom:0 !important;
+		padding:0px 0px !important;
+		margin-top:10px !important;
+	}
+	#asi-shop-style-module-1 .col-xs-6:nth-child(1) .asi-section-content-wrapper{
+		background:url(https://asf.scene7.com/is/image/ASF/asi-mix-lp-shop-style-untraditional-m.jpg) bottom center !important;
+	}
+	#asi-shop-style-module-1 .col-xs-6:nth-child(2) .asi-section-content-wrapper{
+		background:url(https://asf.scene7.com/is/image/ASF/asi-mix-lp-shop-style-modernish-m.jpg) bottom center !important;
+	}
+	.watch-video {
+		bottom:5px !important
+	}
+
+}
+@media (max-width:320px) { 
+	#asi-shop-by-module-v-2 .asi-shop-by-room-heading {
+		font-size:18px !important;
+		font-family:'Knockout-HTF29-JuniorLiteweight','ProximaNova-Semibold', sans-serif !important;
+		top:0px !important;
+		margin-top:-25px;
+		line-height:1 !important;
+		letter-spacing:0.25rem !important;
+	}
+	.home-content-row #asi-shop-by-module-v-2 .asi-shop-by-room-links {
+	  display:none !important;
+   }
+}
+
+@media (min-width:769px){
+	.asi-mix-style-links,
+	.asi-mix-style-links a {
+		text-align:left !important;
+	}
+	.asi-feature-image {
+    	/*height: 46vw !important;*/
+    	height:auto !important;
+    	min-height:594px !important;
+    	width:100% !important;
+	}
+	.asi-feature-image-message-link a {
+		font-size:18px !important;
+	}
+}
+/*** MIX HAWK RECOMMENDATION WIDGETS ***/
+.hawk-recommendation {
+    padding-top:1rem;
+    padding-bottom:0.5rem;
+}
+.hawk-recommendation .itemPrice,
+.hawk-recommendation .itemTitle{
+	display:none !important;
+}
+
+.hawk-recommendation-item {
+    border:0px solid #ffffff !important;
+    border:none !important;
+}
+.hawk-recommendation .hawk-recommendation-inner .rec-title-text,
+.rec-title-text,
+.rec-title-text-red,
+.js-rec-title-text,
+span.rec-title-text,
+.hawk-recommendation-horizontal .rec-title-text,
+.asi-section-content h3.itemTitle,
+.asi-section-content p.itemPrice{
+    display:none !important;
+}
+.hawk-recommendation-item, .itemWrapper, .hawk-itemWrapper, .rec-item-count-4, .slick-slide {
+	border:none !important;
+}
+/*** END:: MIX HAWK RECOMMENDATION WIDGETS ***/
+#asi-shop-by-video-module-v-2 .asi-eq-row {
+	padding-top:10px;
+}
+.img-responsive,
+img.imgresponsive {
+	max-width:100% !important;
+	width:100% !important;
+	height:auto !important;
+	padding:0 0 !important;
+	margin:0 0;
+}
+.pe-type-id-418 #asi-mix-intro-hero-module-3 .asi-content-body {
+	padding-top:0px !important;
+}
+#xsellhiper-button, .mobile-base-container, #pe-container { display:none !important; }
