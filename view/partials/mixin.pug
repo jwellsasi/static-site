@@ -8,11 +8,13 @@ mixin head(canonical, title, description)
     //- canonical tag goes here
     link(rel="canonical" href=`http://localhost:3000/${canonical}`)
     //- site dependency scripts
-    script(src="js/main.js")
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous")
+    //script(src="js/main.js")
     script(src="js/mobile-nav.js")
     //- site vendor dependencies
-    script(src="js/vendor/animsition.min.js")
     script(src="js/vendor/jquery.aim.min.js")
+    script(src="js/vendor/animsition.min.js")    
     script(src="js/vendor/jquery.menu-aim.js")
     script(src="js/vendor/slick.min.js")
     script(src="js/vendor/typeahead.bundle.min.js")
@@ -22,7 +24,12 @@ mixin head(canonical, title, description)
     link(rel="stylesheet" type="text/css" href="css/styles.css")
     link(rel="stylesheet" type="text/css" href="css/asi-mix-styles-main.css")
     link(rel="stylesheet" type="text/css" href="css/asi-mix-styles.css")
-    link(rel="stylesheet" type="text/css" href="css/vendor/normalize.css")
+    link(rel="stylesheet" type="text/css" href="http://www.valuecityfurniture.com/Content/ValueCityMix/styles/vendor/normalize.css")
+    linl(rel="stylesheet" type="text/css" href="css/vendor/main.css")
     //- bootstrap code
     //- Latest compiled and minified JavaScript
-    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")  
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+    //- asiHero plugin
+    link(rel="stylesheet" type="text/css" href="css/asiHero.css")
+    script(type="text/javascript" src="js/jquery.asiHero.js")
