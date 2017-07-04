@@ -23,6 +23,15 @@ gulp.task('partials', function(){
     .pipe(gulp.dest('build'))    
 });
 
+// run Python build script
+gulp.task('python', function (cb) {
+  exec('python site-dependencies.py', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+})
+
 // start the node server
 gulp.task('server', function (cb) {
   exec('node app.js', function (err, stdout, stderr) {
@@ -35,8 +44,8 @@ gulp.task('server', function (cb) {
 // watch for changes in the template files
 // then restart the server
 gulp.task('watch', function(){
-  gulp.watch('view/pages/*.pug', ['pages','server']);
-  gulp.watch('view/partials/*.pug', ['partials','server']);
+  gulp.watch('view/pages/*.pug', ['pages','server', 'partials']);
+  gulp.watch('view/partials/*.pug', ['partials','server', 'pages']);
 })
 
-gulp.task('default', ['pages', 'watch', 'server'])
+gulp.task('default', ['pages', 'watch', 'python', 'server'])

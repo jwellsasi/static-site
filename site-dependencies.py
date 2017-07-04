@@ -31,3 +31,9 @@ print "mobile-nav.js download complete"
 
 fetchjs.retrieve(d+"/Scripts/ASIMix/vendor/slick.min.js", "public/js/vendor/slick.min.js")
 print "slick.min.js download complete"
+
+fetchjs.retrieve("https://shopvcf.com/css/asi-mix-styles-main.css", "public/css/asi-mix-styles-main.css")
+print "asi-mix-styles-main.css download complete"
+
+fetchjs.retrieve("https://shopvcf.com/css/asi-mix-styles.css", "public/css/asi-mix-styles.css")
+print "asi-mix-styles.css download complete"
