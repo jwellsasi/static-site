@@ -6,10 +6,11 @@
       <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no"/>
       <title>Homepage title tag test</title>
       <link rel="canonical" href="http://localhost:3000/"/>
-      <script src="js/main.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <!--script(src="js/main.js")-->
       <script src="js/mobile-nav.js"></script>
-      <script src="js/vendor/animsition.min.js"></script>
       <script src="js/vendor/jquery.aim.min.js"></script>
+      <script src="js/vendor/animsition.min.js">   </script>
       <script src="js/vendor/jquery.menu-aim.js"></script>
       <script src="js/vendor/slick.min.js"></script>
       <script src="js/vendor/typeahead.bundle.min.js"></script>
@@ -18,23 +19,91 @@
       <link rel="stylesheet" type="text/css" href="css/styles.css"/>
       <link rel="stylesheet" type="text/css" href="css/asi-mix-styles-main.css"/>
       <link rel="stylesheet" type="text/css" href="css/asi-mix-styles.css"/>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">  </script>
+      <link rel="stylesheet" type="text/css" href="http://www.valuecityfurniture.com/Content/ValueCityMix/styles/vendor/normalize.css"/>
+      <linl rel="stylesheet" type="text/css" href="css/vendor/main.css"></linl>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+      <link rel="stylesheet" type="text/css" href="css/asiHero.css"/>
+      <script type="text/javascript" src="js/jquery.asiHero.js"></script>
     </head>
   <body>
-    <h1>Homepage Things</h1>
-    <div class="container">
-      <p>Lots of coolness</p>
-    </div>
-    <footer>
-      <div>
-        <p>this is a footer with text</p>
+    <div class="row-fluid home-content-row clearfix">
+      <div class="pe-type-id-417"> 
+        <h2 class="asi-h2 display-2 text-center" style="padding-top:10px;font-size:2.5em !important;color:#54585a !important;">Fluid Width HTML Hero w/ BG Image</h2>
+        <div id="asi-fluid-html-hero"></div>
+        <script type="text/javascript">
+          $(function(){
+              $('#asi-fluid-html-hero').asiHero({
+                  layout : 'fluid',
+                  responsiveMode : 'responsive',
+                  dataPosition : '0',
+                  divider : 'true',
+                  contentCol : 'col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12',
+                  urgencyText : 'ENDS TODAY!',
+                  headlineText : '<h1 class="asiH1 asi-h1 display-1 asi-display-1">20% OFF<br>OVERSTOCK</h1>',
+                  messageText : 'SCORE SOFAS, CHAIRS, BEDS, & MORE',
+                  messageSubText : 'while quantities last - selection may vary by store',
+                  textAlign : 'text-center',
+                  fontColor : '#FFFFFF',
+                  bgImage : 'https://asf.scene7.com/is/image/ASF/asi-furniture-tile-bg.jpg',
+                  bgColorContent : '#EE3D42',
+                  paddingSection : '0px',
+                  paddingBody : '12% 15px',
+                  paddingContent : '25px',
+                  addButton : 'true',
+                  buttonText : 'SHOP NOW',
+                  buttonClass : 'asi-mix-button white',
+                  buttonLink : '/search/on-sale',
+                  complete: function(){ console.log('asi fluid html hero compiled')}
+              });
+          });
+        </script>
       </div>
-    </footer>
+    </div>
+    <!-- include ../partials/footer.pug-->
   </body>
 </html><br/><br/>
 <p>Copy and paste this code to implement this module:
-  <pre><code> &lt;h1>Homepage Things&lt;/h1>
- &lt;div class="container">
-     &lt;p>Lots of Coolness&lt;/p>
- &lt;/div> </code></pre>
+  <pre><code> &lt;div class="pe-type-id-417"> 
+      &lt;h2 class="asi-h2 display-2 text-center" style="padding-top:10px;font-size:2.5em !important;color:#54585a !important;">
+           Fluid Width HTML Hero w/ BG Image
+      &lt;/h2>
+      &lt;div id="asi-fluid-html-hero">
+          &lt;div class="section asi-section asi-mix-hero-wrapper">                        
+              &lt;div id="asi-mix-hero" class="asi-bg-hero-image container-fluid asi-container-fluid asi-fluid-hero" 
+                  style="background-image:url(https://asf.scene7.com/is/image/ASF/asi-furniture-tile-bg.jpg);">                           
+                  &lt;div class="row asi-row">                               
+                      &lt;div id="asi-content-col" class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">                                  
+                          &lt;div class="asi-content asi-content-body" style="padding: 12% 15px;">                                       
+                              &lt;div id="asi-hero-wrapper" class="asi-section-content-wrapper" style="background-color: rgb(238, 61, 66); padding: 25px;">
+                                  &lt;p class="asi-urgency-msg text-center" style="color: rgb(255, 255, 255);">
+                                      ENDS TODAY!
+                                  &lt;/p>
+                                  &lt;div class="asi-divider">
+                                      &lt;div class="asi-divider-line">&lt;/div>
+                                  &lt;/div>                                          
+                                  &lt;h1 class="asiH1 asi-h1 display-1 asi-display-1 text-center" style="color: rgb(255, 255, 255);">
+                                      20% OFF&lt;br>OVERSTOCK
+                                  &lt;/h1>
+                                  &lt;p class="asi-hero-message asi-lead lead asi-hero-lead text-center" style="color: rgb(255, 255, 255);">
+                                      SCORE SOFAS, CHAIRS, BEDS, &amp; MORE
+                                  &lt;/p>                                           
+                                  &lt;p class="asi-hero-sub-message asi-sub-lead text-center" style="color: rgb(255, 255, 255);">
+                                      while quantities last - selection may vary by store
+                                  &lt;/p>
+                                  &lt;div id="asi-hero-btn-wrap">
+                                      &lt;a id="asiHero-button-link" target="_self" href="/search/on-sale" data-pos="0">
+                                          &lt;button id="asiHero-button" class="asi-mix-button white">
+                                              SHOP NOW
+                                          &lt;/button>
+                                      &lt;/a>
+                                  &lt;/div>                                      
+                             &lt;/div>                                  
+                        &lt;/div>                              
+                   &lt;/div>                          
+              &lt;/div>
+          &lt;/div>
+       &lt;/div>
+    &lt;/div>
+ &lt;/div></code></pre>
 </p>
