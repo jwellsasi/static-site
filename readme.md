@@ -21,13 +21,7 @@ npm install
 
 ```
 
-# Sync External Dependencies with following command
-
-```python
-python site-dependecies.py
-```
-
-# Run gulp and Start Node Server
+# Run gulp and Start Node Server, Sync Dependencies
 
 ```
 gulp
