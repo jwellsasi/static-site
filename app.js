@@ -1,26 +1,26 @@
-var express = require('express')
-var pug = require('pug')
-var app = express()
+var express = require('express');
+var pug = require('pug');
+var app = express();
 
-app.use(express.static('public'))
+app.use(express.static('public'));
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function (req, res) {
   console.log(req.headers.host+req.url);
   res.sendFile(__dirname + '/build/home.html');
-})
+});
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/archive', function (req, res) {
   console.log(req.headers.host+req.url);
   res.sendFile(__dirname + '/build/archive.html');
-})
+});
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/admin', function (req, res) {
   console.log(req.headers.host+req.url);
   res.sendFile(__dirname + '/build/admin.html');
-})
+});
 
 // Handle 404
 app.use(function(req, res) {
@@ -35,5 +35,5 @@ app.use(function(error, req, res, next) {
 });
 
 app.listen(3000, function () {
-  console.log('Server Listening at: http://localhost:3000')
-})
+  console.log('Server Listening at: http://localhost:3000');
+});
