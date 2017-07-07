@@ -1,0 +1,55 @@
+
+#asi-mix-hero { padding-left:0px !important; padding-right:0px !important; }
+.asi-mix-hero-wrapper { padding-top:0px !important; }
+
+#asi-mix-hero .asi-divider { width:100%; padding:3px 0px 8px; margin:10px auto; text-align:center; max-height:2px; }
+
+#asi-mix-hero .asi-divider .asi-divider-line {background:white; text-align:center; margin:0 auto; padding:0; width:100%; height:2px; max-width:30px;}
+
+#asi-mix-hero p.asi-urgency-msg { font-size:1.5em !important; letter-spacing:1px !important; font-family:'ProximaNova-Regular', sans-serif !important; }
+
+#asi-mix-hero h1.asi-display-1{font-size:104px;padding-top:6px !important; padding-bottom:6px !important;}
+
+#asi-mix-hero p.asi-lead { font-size:22px !important; padding-bottom:0px !important; margin-top:0px !important; margin-bottom:0px !important; }
+
+#asi-mix-hero p.asi-sub-lead { font-size: 18px !important; letter-spacing:1px !important; font-family:'ProximaNova-Regular', sans-serif !important; }
+
+#asi-mix-hero #asi-hero-btn-wrap { width:100%; padding:15px 0px; margin: 0 auto; text-align:center; }
+
+#asi-hero-btn-wrap button { border:none !important; padding:10px 45px !important; font-size:16px !important; }
+
+.asi-fixed-hero {
+    max-width:1180px !important;
+    width:100% !important;
+    margin:0 auto !important;
+    padding:0 !important;
+    text-align:center !important;
+    position:relative;
+}
+    .asi-fixed-hero .row,
+    .asi-fixed-hero .asi-row {
+        padding:0 !important;
+        margin-left:0 !important;
+        margin-right:0 !important;
+        position:relative;
+        width:100%;
+    }
+        .asi-fixed-hero #asi-content-col {
+            padding:0 !important;
+            margin:0 !important;
+            position:relative;
+            width:100%;
+        }
+
+@media screen and (max-width:768px){
+    #asi-mix-hero p.asi-urgency-msg { font-size:1.275em !important; }
+    #asi-mix-hero h1.asi-display-1{font-size:72px !important; }
+    #asi-mix-hero p.asi-lead { font-size:18px !important; }
+    #asi-mix-hero p.asi-sub-lead { font-size: 16px !important;
+}
+@media screen and (max-width:480px){
+    #asi-mix-hero p.asi-urgency-msg { font-size:1.125em !important; }
+    #asi-mix-hero h1.asi-display-1{font-size:48px !important; }
+    #asi-mix-hero p.asi-lead { font-size:16px !important; }
+    #asi-mix-hero p.asi-sub-lead { font-size:13px !important;
+}
